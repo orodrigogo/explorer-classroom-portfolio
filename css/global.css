@@ -1,0 +1,19 @@
+:root {
+  --background: #FFF;
+  --shape: #171513;
+  --text: #F3F1EF;
+  --title: #171513;
+  --caption: #8C8C8C;
+  --success: #E74E35;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
