@@ -1,0 +1,27 @@
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 44px 0;
+}
+
+.banner p {
+  color: var(--caption);
+  font-size: 1.8rem;
+}
+
+@media (max-width: 772px) {
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner div {
+    text-align: center;
+  }
+
+  .banner a {
+    margin-top: 24px;
+  }
+}

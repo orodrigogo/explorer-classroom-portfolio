@@ -1,0 +1,54 @@
+#form {
+  width: 100%;
+  background-color: var(--shape);
+
+  padding: 8rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#form form {
+  max-width: 980px;
+  background: var(--background);
+
+  padding: 4rem;
+  text-align: center;
+}
+
+#form h3 {
+  margin-bottom: 3rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-group .input-control {
+  flex: 1;
+  display: block;
+  padding: 12px;
+  margin: -4px 8px 10px;
+  font-size: 1.6rem;
+}
+
+#form button {
+  width: 100%;
+}
+
+@media (max-width: 650px) {
+  .form-group {
+    width: 100%;
+    display: block;
+  }
+
+  .input-control {
+    width: 100%;
+  }
+
+  #form form {
+    width: 90%;
+  }
+}

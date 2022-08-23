@@ -13,7 +13,43 @@
   padding: 0;
 }
 
-html, body {
-    font-family: 'Inter', sans-serif;
-    -webkit-font-smoothing: antialiased;
+html {
+  /* 
+   (100% x 10px) / 16px = 62.5%
+  */
+  font-size: 62.5%;
+}
+
+html,
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 600;
+
+  color: var(--text);
+  background-color: var(--success);
+
+  padding: 12px 30px;
+  border-radius: 5px;
+
+  cursor: pointer;
+  border: none;
+
+  transition: all 0.3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button:hover {
+  filter: brightness(0.9);
 }

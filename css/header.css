@@ -1,0 +1,51 @@
+header {
+  width: 100%;
+  height: 64px;
+
+  background-color: var(--shape);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 10%;
+}
+
+header span {
+  color: var(--text);
+  font-weight: 500;
+}
+
+header span strong {
+  color: var(--success);
+}
+
+.menu-bar ul {
+  display: flex;
+}
+
+.menu-bar ul li {
+  list-style: none;
+
+  font-size: 32px;
+}
+
+.menu-bar ul li a {
+  color: var(--text);
+  text-decoration: none;
+
+  padding: 24px;
+  font-weight: 500;
+
+  /*
+   em - multiplicado pelo font-size utilizado pelo elemento pai.
+   rem - multiplicado pelo root do site.
+  */
+  font-size: 1.6rem;
+
+  transition: color 0.3s;
+}
+
+.menu-bar ul li a:hover {
+  color: var(--success);
+}
